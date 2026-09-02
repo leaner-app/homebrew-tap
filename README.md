@@ -1,25 +1,25 @@
-# Tap de Homebrew para Leaner
+# Homebrew tap for Leaner
 
-[Leaner](https://github.com/leaner-app/releases) es una app de macOS para limpiar el disco
-con seguridad y desinstalar apps sin uso. Firmada con Developer ID y notarizada por Apple.
+[Leaner](https://leaner-app.github.io/releases/) is a macOS app that safely cleans your disk and
+uninstalls unused apps. Signed with a Developer ID and notarized by Apple.
 
-## Instalación
+## Install
 
 ```bash
 brew install --cask leaner-app/tap/leaner
 ```
 
-Para actualizar a la última versión publicada:
+To update to the latest published version:
 
 ```bash
 brew upgrade --cask leaner
 ```
 
-Y para desinstalarla, con sus preferencias incluidas:
+And to remove it, preferences included:
 
 ```bash
 brew uninstall --zap --cask leaner
 ```
 
-Este repositorio solo contiene el cask; los binarios se descargan de las
-[releases oficiales](https://github.com/leaner-app/releases/releases).
+This repository only holds the cask; the binaries are downloaded from the
+[official releases](https://github.com/leaner-app/releases/releases).
