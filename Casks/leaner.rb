@@ -2,8 +2,8 @@
 # Instalación: brew install --cask leaner-app/tap/leaner
 # `make publish` actualiza aquí version/sha256 y lo publica en el tap; solo hay que commitearlo.
 cask "leaner" do
-  version "1.2.1"
-  sha256 "e1d9412180ff143d08bb6ba514ea3890365996a479452cf8cd660fb1c10662de"
+  version "1.2.2"
+  sha256 "1d4f13094837aa9de0883fb3b7b5f0e1ddc4e515ee818d00bb3c91dd3f410d6d"
 
   url "https://github.com/leaner-app/releases/releases/download/v#{version}/Leaner-#{version}.zip"
   name "Leaner"
